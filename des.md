@@ -1,6 +1,8 @@
 #腾讯移动端x5内核调试教程
 #####背景说明：由于所在公司（酷划在线），年前安卓同学将app内核改为x5，前端组调试页面遇到痛点，看官方说明还是有点不够清晰，经过@李庆美 大哥指点，也加上自己踩过的坑，整理如下希望帮到有需要的小伙伴们。
 
+###个人邮箱：lijialong_web@icloud.com(有问题可以写邮件)
+
 ###步骤：
   1. 在手机安装tbs工具集 4f7aee5881dab314b5b84f00c404eaaf.apk
   2.  将 tbs_20151019_100828_inspector.apk 拷贝到 手机/sdcard/tbs/com.tencent.mm/   目录下（如果tbs下没有com.tencent.mm文件夹，需要手动创建）
@@ -11,5 +13,4 @@
   7.  电脑进入到附件中，sq_webview_debug/inspector_client20150401（需解压） 文件夹下，执行命令 python ./inspector.py, 命令行展示 ('Serving HTTP on', '0.0.0.0', 'port', 9223, '…') 说明成功。
    8. 保证此时微信中已经在访问有效页面，在chrome浏览器输入 localhost:9222,可以看到下图类似页面说明可以调试
 
- ![](https://github.com/shawushe/TencentX5Debugging/blob/master/img/1.png)
- ![](https://github.com/shawushe/TencentX5Debugging/blob/master/img/2.png)
+ ![Aaron Swartz](https://github.com/shawushe/TencentX5Debugging/blob/master/img/1.png)
