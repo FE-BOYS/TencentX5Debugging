@@ -10,3 +10,6 @@
   6.  待页面加载完毕后，打开手机中已安装的tbs工具集软件。点击  “tbs信息查询” 下的 “com.tencent.mm”，如果提示tbs version：88888888 成功，否则请结束微信进程，跳回到第五步的操作。
   7.  电脑进入到附件中，sq_webview_debug/inspector_client20150401（需解压） 文件夹下，执行命令 python ./inspector.py, 命令行展示 ('Serving HTTP on', '0.0.0.0', 'port', 9223, '…') 说明成功。
    8. 保证此时微信中已经在访问有效页面，在chrome浏览器输入 localhost:9222,可以看到下图类似页面说明可以调试
+
+ ![](https://github.com/shawushe/TencentX5Debugging/blob/master/img/1.png)
+ ![](https://github.com/shawushe/TencentX5Debugging/blob/master/img/2.png)
